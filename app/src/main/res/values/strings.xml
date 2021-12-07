@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">eric agustian winardi</string>
+    <string name="jumlah_pinjaman">Pinjaman</string>
+    <string name="waktu_pinjaman_bulan">Waktu Pinjaman</string>
+    <string name="bunga">Bunga</string>
+    <string name="hitung">Hitung</string>
+    <string name="total">Total</string>
+    <string name="sisa">Sisa</string>
+    <string name="pokok">Pokok</string>
+    <string name="perbulan">Perbulan</string>
+    <string name="tahun">%/Tahun</string>
+</resources>

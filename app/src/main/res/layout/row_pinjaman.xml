@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <TextView
+            tools:text="Bulan Ke "
+            android:gravity="end"
+            android:id="@+id/bulan"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></view>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/bunga"
+                android:textSize="20sp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                tools:text="-"
+                android:textSize="20sp"
+                android:id="@+id/bunga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/pokok"
+                android:textSize="20sp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                tools:text="-"
+                android:textSize="20sp"
+                android:id="@+id/pokok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/total"
+                android:textSize="20sp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                tools:text="-"
+                android:textSize="20sp"
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/sisa"
+                android:textSize="20sp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                tools:text="-"
+                android:textSize="20sp"
+                android:id="@+id/sisapinjaman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
